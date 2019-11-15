@@ -56,6 +56,9 @@ python EIWA.py --mode 2
 
 # References
 [1] Nazeri, Kamyar, et al. "Edgeconnect: Generative image inpainting with adversarial edge learning." arXiv preprint arXiv:1901.00212 (2019).
+
 [2] Iizuka, Satoshi, Edgar Simo-Serra, and Hiroshi Ishikawa. "Globally and locally consistent image completion." ACM Transactions on Graphics (ToG) 36.4 (2017): 107.
+
 [3] Pathak, Deepak, et al. "Context encoders: Feature learning by inpainting." Proceedings of the IEEE conference on computer vision and pattern recognition. 2016.
+
 [4] Yu, Jiahui, et al. "Generative image inpainting with contextual attention." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2018.
