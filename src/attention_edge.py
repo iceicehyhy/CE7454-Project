@@ -8,7 +8,7 @@ from .utils import Progbar, create_dir, stitch_images, imsave
 from .metrics import PSNR, EdgeAccuracy
 
 
-class EdgeConnect():
+class AttentionEdge():
     def __init__(self, config):
         self.config = config
         print (config.MODEL)

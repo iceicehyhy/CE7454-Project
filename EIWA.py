@@ -6,7 +6,7 @@ import torch
 import argparse
 from shutil import copyfile
 from src.config import Config
-from src.edge_connect import EdgeConnect
+from src.attention_edge import AttentionEdge
 
 class EdgeInpaintingWithAttention():
     def __init__(self):
@@ -38,7 +38,7 @@ class EdgeInpaintingWithAttention():
 
 
         # build the model and initialize
-        model = EdgeConnect(self.config)
+        model = AttentionEdge(self.config)
         model.load()
 
         # model training
